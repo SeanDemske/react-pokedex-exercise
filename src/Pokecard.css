@@ -1,0 +1,25 @@
+.Pokecard {
+    background-color: rgb(156, 156, 156);
+    width: 12rem;
+    padding: 2rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5rem;
+    transition: .15s ease-in-out;
+}
+
+.Pokecard h1 {
+    color: rgb(223, 223, 223);
+}
+
+.Pokecard p {
+    color: rgb(36, 36, 36);
+}
+
+.Pokecard:hover {
+    -webkit-box-shadow: 0px 5px 15px 5px rgba(0,0,0,0.22); 
+    box-shadow: 0px 5px 15px 5px rgba(0,0,0,0.22);
+}
